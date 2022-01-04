@@ -1,38 +1,154 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
 }
+body {
+  max-width: 400px;
+  padding: 10px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin: 0 auto;
+  background-color: rgba(85, 85, 231, 0.5);
 }
+img {
+  width: 40%;
+  height: 18vh;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: 0 auto;
+  border-radius: 50%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.userForm {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+#input {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+button {
+  margin-top: 15px;
+}
+.select {
+  border: 1px solid black;
+}
+.infoImg {
+  width: 20%;
+  height: 7vh;
+
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+.userButton {
+  width: 10%;
+  height: 5vh;
+  border-radius: 50%;
+  border: none;
+
+  cursor: pointer;
+}
+.userSingle {
+  display: flex;
+  padding: 10px;
+
+  width: 100%;
+  box-sizing: border-box;
+}
+.userBox {
+  width: 100%;
+
+  padding: 10px;
+  box-sizing: border-box;
+}
+hr {
+  margin: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: rgba(95, 140, 177, 0.548);
   }
-  to {
-    transform: rotate(360deg);
+  body {
+    max-width: 400px;
+    padding: 10px;
+
+    margin: 0 auto;
+    background-color: rgba(85, 85, 231, 0.5);
+  }
+  img {
+    width: 40%;
+    height: 18vh;
+
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  .userForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  #input {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  button {
+    margin-top: 15px;
+  }
+  .select {
+    border: 1px solid black;
+  }
+  .infoImg {
+    width: 20%;
+    height: 7vh;
+
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+
+  .user {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .userButton {
+    width: 10%;
+    height: 5vh;
+    border-radius: 50%;
+    border: none;
+
+    cursor: pointer;
+  }
+  .userSingle {
+    display: flex;
+    padding: 10px;
+
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .userBox {
+    width: 100%;
+
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  hr {
+    margin: 20px;
   }
 }
